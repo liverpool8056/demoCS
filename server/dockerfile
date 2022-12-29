@@ -1,0 +1,3 @@
+FROM openjdk:18.0.1.1-jdk-oraclelinux7
+ADD target/server-0.0.1-SNAPSHOT.jar /tmp/myapp.jar
+CMD java -jar /tmp/myapp.jar
